@@ -1,4 +1,4 @@
-
+// https://github.com/Rakib221/assignment-js-1
 
 // kilometer converter start
 
@@ -11,7 +11,7 @@ function kilometerToMeter(distance){
     }
 
     else{
-        convertedDistance = distance * 1000; // 1 kilometer = 1000 meter
+        var convertedDistance = distance * 1000; // 1 kilometer = 1000 meter
         return convertedDistance.toFixed(3); // for take 3 digits after decimal
     }
 }
@@ -26,7 +26,7 @@ function budgetCalculator(numberC,numberP,numberLap){
    var numberLaptop = Math.abs(numberLap);
    // price of each instrument:
    // clock 50 dollars;phone 100 dollars;laptop 500 dollars;
-   totalBudget = numberClock*50+numberPhone*100+numberLaptop*500;
+   var totalBudget = numberClock*50+numberPhone*100+numberLaptop*500;
    return totalBudget;
 }
 
@@ -35,7 +35,7 @@ function budgetCalculator(numberC,numberP,numberLap){
 // hotelcost start
 
 function hotelCost(day){
-    totalCost = 0;
+     var totalCost = 0;
     if(day<=0){
         return 'Error!Please import positive value.';
     }
